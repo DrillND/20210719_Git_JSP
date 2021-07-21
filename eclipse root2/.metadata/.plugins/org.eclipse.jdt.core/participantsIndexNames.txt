@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+C:\Users\KB\Downloads\eclipse root2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\361869620.index
+\DJ_JSP\src\main\java
+C:\Users\KB\Downloads\eclipse root2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3650551082.index
+\DJ_JSP\src\main\java
+C:\Users\KB\Downloads\eclipse root2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1103512165.index
+\webapp0326\src
