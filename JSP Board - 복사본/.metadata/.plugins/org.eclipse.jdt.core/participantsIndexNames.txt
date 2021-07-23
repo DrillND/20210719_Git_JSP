@@ -1,7 +1,3 @@
 INDEX VERSION 1.131
-C:\Users\KB\Downloads\JSP Board\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3064475175.index
-\board\src\main\java
-C:\Users\KB\Downloads\JSP Board\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3882650937.index
-\board\src\main\java
-C:\Users\KB\Downloads\JSP Board\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4125473949.index
+C:\Users\KB\Desktop\JSP Board - บนป็บป\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3882650937.index
 \board\src\main\java
