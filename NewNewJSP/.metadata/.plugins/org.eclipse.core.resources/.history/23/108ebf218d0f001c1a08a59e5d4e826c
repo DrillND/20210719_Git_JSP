@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action="FormEx">
+	학생이름: <input type="input" name="myname">
+	
+	학생나이:<input type="input" name="myage">
+	
+	학생번호:<input type="input" name="myage">
+	<input type="submit" value="이름 및 나이 번호 제출 제출get">
+</form>
+
+<form action="FormEx" method="post">
+	이름: <input type="input" name="myname_post">
+	<input type="submit" value="이름제출">
+</form>
+
+
+</body>
+</html>

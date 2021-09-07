@@ -1,0 +1,8 @@
+package com.start_servlet;
+
+public class Student {
+	private String name;
+	private int age;
+	
+	
+}

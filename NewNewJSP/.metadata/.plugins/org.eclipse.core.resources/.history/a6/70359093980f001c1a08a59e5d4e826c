@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action="exxx">
+	학생이름: <input type="input" name="nmyname">
+	
+	학생나이:<input type="input" name="nmyage">
+	
+	학생번호:<input type="input" name="nmynum">
+	<input type="submit" value="이름 및 나이 번호 제출 제출get">
+</form>
+
+<form action="#" method="post">
+	동물 종류: <input type="input" name="myname_post">
+	
+	동물 이름: <input type="input" name="myname_post">
+	
+	동물 나이: <input type="input" name="myname_post">
+	
+	동물 번호: <input type="input" name="myname_post">
+	<input type="submit" value="동물제출post">
+</form>
+
+
+</body>
+</html>

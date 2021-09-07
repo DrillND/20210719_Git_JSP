@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action="abcdefg">
+<input type="submit" value="GoToservlet">
+
+</form>
+
+<form action="abcdefg">
+<input type="submit" method="post" value="GoToservlet(post)">
+
+</form>
+</body>
+</html>
