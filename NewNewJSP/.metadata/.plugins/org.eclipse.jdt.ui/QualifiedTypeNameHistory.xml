@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="javax.servlet.annotation.WebInitParam"/>
+    <fullyQualifiedTypeName name="testinterface.Machine"/>
+    <fullyQualifiedTypeName name="org.graalvm.compiler.lir.amd64.AMD64ControlFlow.TestBranchOp"/>
+    <fullyQualifiedTypeName name="studyobserver.EmergencyStopable"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="studyobserver.UseObserverPatten"/>
 </qualifiedTypeNameHistroy>
