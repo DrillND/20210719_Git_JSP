@@ -1,0 +1,27 @@
+package testinterface;
+
+public class MyHRD {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Person p = new Person("이동준", "8915");
+		Insect i = new Insect("똥파리");
+		Machine m = new Machine("컴퓨터", 100);
+
+		p.Eat();
+		p.Eat("사과");
+
+		i.Eat();
+		i.Eat("사과");
+
+		Eating(i, "빵");
+		Eating(p, "빵");
+	}
+
+	// Eatable e
+	// Eatable 인터페이스를 구현하는 모든 것들을 의미 함
+	public static void Eating(Eatable e, String Food) {
+		e.Eat();
+		e.Eat(Food);
+	}
+}

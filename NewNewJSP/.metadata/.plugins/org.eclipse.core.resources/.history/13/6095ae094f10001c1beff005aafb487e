@@ -1,0 +1,44 @@
+package testinterface;
+
+public class Person implements Eatable{
+
+	private String name;
+	private String sNum;
+	
+	
+	
+	public Person(String name, String sNum) {
+		super();
+		this.name = name;
+		this.sNum = sNum;
+	}
+
+	public String getsNum() {
+		return sNum;
+	}
+
+	public void setsNum(String sNum) {
+		this.sNum = sNum;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	@Override
+	public void Eat() {
+		// TODO Auto-generated method stub
+		System.out.println("냠냠 밥을 먹습니다.");
+	}
+
+	@Override
+	public void Eat(String Food) {
+		// TODO Auto-generated method stub
+		System.out.println(this.name+"은 "+Food+"을/를 먹습니다.");
+	}
+
+}

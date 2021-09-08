@@ -1,0 +1,14 @@
+package studyLamda;
+
+public class MyLamda {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		MyAddable myAdd = (x,y) -> x+y;
+		MyAddable PowerAdd = (x,y) -> (x*x)+(y*y);
+		
+		System.out.println(myAdd.add(2, 3));
+		System.out.println(PowerAdd.add(2, 3));
+	}
+
+}

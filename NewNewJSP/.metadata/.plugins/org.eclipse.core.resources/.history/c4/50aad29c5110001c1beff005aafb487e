@@ -1,0 +1,45 @@
+package testinterface;
+
+import java.util.ArrayList;
+
+public class MyHRD {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Person p = new Person("이동준", "8915");
+		Insect i = new Insect("똥파리");
+		Machine m = new Machine("컴퓨터", 100);
+
+		p.Eat();
+		p.Eat("사과");
+
+		i.Eat();
+		i.Eat("사과");
+
+		Eating(p, "빵");
+		Eating(i, "빵");
+
+		ArrayList<Eatable> list = new ArrayList<Eatable>();
+		list.add(p);
+		list.add(i);
+
+		nofify(list, "경북산업직업전문학교 별관 식당밥");
+		// list.add(m);
+	}
+
+	private static void nofify(ArrayList<Eatable> l, String Food) {
+		// TODO Auto-generated method stub
+		for (Eatable item : l) {
+			item.Eat();
+			item.Eat(Food);
+		}
+	}
+
+	// Eatable e
+	// Eatable 인터페이스를 구현하는 모든 것들을 의미 함
+	public static void Eating(Eatable e, String Food) {
+		e.Eat();
+		e.Eat(Food);
+		e.Test();
+	}
+}

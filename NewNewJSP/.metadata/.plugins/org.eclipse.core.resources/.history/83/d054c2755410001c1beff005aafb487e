@@ -1,0 +1,8 @@
+package studyLamda;
+
+
+@FunctionalInterface//함수형 인터페이스
+//단순히 객체가 아니고 함수를 저장함
+public interface MyAddable {
+	public int add(int x, int y);
+}

@@ -1,0 +1,11 @@
+package studyobserver;
+
+public class RobotHead implements EmergencyStopable{
+
+	@Override
+	public void Stop() {
+		// TODO Auto-generated method stub
+		System.out.println("로봇 대가리 멈춤");
+	}
+
+}

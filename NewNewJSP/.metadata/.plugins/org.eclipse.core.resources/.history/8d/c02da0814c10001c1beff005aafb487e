@@ -1,0 +1,6 @@
+package testinterface;
+
+public interface Eatable {
+	void Eat();
+	void Eat(String Food);
+}

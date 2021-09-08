@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;testinterface.Animal&apos; to &apos;Insect&apos;&#x0D;&#x0A;- Original project: &apos;Leaninterface&apos;&#x0D;&#x0A;- Original element: &apos;testinterface.Animal&apos;&#x0D;&#x0A;- Renamed element: &apos;testinterface.Insect&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Animal&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;testinterface{Animal.java[Animal" matchStrategy="1" name="Insect" qualified="false" references="true" similarDeclarations="false" stamp="1631068037436" textual="false" version="1.0"/>
+</session>

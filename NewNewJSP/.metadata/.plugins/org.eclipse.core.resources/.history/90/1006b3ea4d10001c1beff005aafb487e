@@ -1,0 +1,18 @@
+package testinterface;
+
+public class MyHRD {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Person p = new Person("이동준","8915");
+		Insect i = new Insect("똥파리");
+		Machine m = new Machine("컴퓨터", 100);
+		
+		p.Eat();
+		p.Eat("사과");
+		
+		i.Eat();
+		i.Eat("사과");
+	}
+
+}
